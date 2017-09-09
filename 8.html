@@ -7,6 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <script>
+        fetch('./a.json').then((res)=>{
+            if(res.status !== 200){
+                console.log('出错啦');
+                return;
+            }
+            res.json().then((data)=>{
+                console.log(data);
+            })
+        })    
+    </script>
 </body>
 </html>
