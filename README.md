@@ -22,3 +22,7 @@ doSomething()
 })
 .catch(failureCallback);
 ```
+
+## 看0,1,2代码学习promise
+
+## 看8.html学习fetch的用法
